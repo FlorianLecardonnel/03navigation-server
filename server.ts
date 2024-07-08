@@ -27,6 +27,7 @@ const taskSchema = new mongoose.Schema({
     description: String,
     date: String,
     done: Boolean,
+    priority: String,
 });
 
 const Task = mongoose.model('Task', taskSchema);
